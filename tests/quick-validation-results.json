@@ -1,0 +1,53 @@
+{
+  "timestamp": "2025-09-24T12:07:30.005Z",
+  "url": "http://localhost:3001",
+  "tests": {
+    "fontValidation": {
+      "bodyClasses": "jetbrains_mono_6c836211-module__TnS4_q__variable font-mono antialiased",
+      "hasFontMono": true,
+      "fontFamily": "\"JetBrains Mono\", \"JetBrains Mono Fallback\"",
+      "hasJetBrains": true,
+      "h1Font": "\"JetBrains Mono\", \"JetBrains Mono Fallback\"",
+      "success": true
+    },
+    "gtvDisplay": {
+      "found": true,
+      "exactMatch": true,
+      "elementText": "$70M+",
+      "hasPlus": true,
+      "success": true
+    },
+    "sections": {
+      "hasHero": true,
+      "hasCards": true,
+      "hasMetrics": true,
+      "hasCharts": true,
+      "errorCount": 0,
+      "success": true
+    },
+    "logo": {
+      "hasSvgLogo": true,
+      "svgCount": 102,
+      "hasBomboText": true,
+      "hasSidebar": true,
+      "success": true
+    },
+    "navigation": {
+      "buttonCount": 7,
+      "linkCount": 0,
+      "hasNavText": true,
+      "success": true
+    },
+    "consoleErrors": {
+      "total": 0,
+      "critical": 0,
+      "success": true
+    }
+  },
+  "consoleErrors": [],
+  "summary": {
+    "passed": 6,
+    "failed": 0,
+    "total": 6
+  }
+}

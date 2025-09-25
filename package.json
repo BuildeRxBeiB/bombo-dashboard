@@ -1,0 +1,47 @@
+{
+  "name": "bombo-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "node tests/run-all-tests.js",
+    "test:puppeteer": "node tests/puppeteer/dashboard.test.js",
+    "test:playwright": "node tests/playwright/dashboard.spec.js"
+  },
+  "dependencies": {
+    "@radix-ui/react-progress": "^1.1.0",
+    "@radix-ui/react-separator": "^1.1.0",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-tabs": "^1.1.0",
+    "@radix-ui/react-tooltip": "^1.1.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.3.24",
+    "lucide-react": "^0.427.0",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "recharts": "^2.12.7",
+    "tailwind-merge": "^2.4.0",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@typescript-eslint/eslint-plugin": "^8.2.0",
+    "@typescript-eslint/parser": "^8.2.0",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "playwright": "^1.55.1",
+    "postcss": "^8",
+    "puppeteer": "^24.22.3",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

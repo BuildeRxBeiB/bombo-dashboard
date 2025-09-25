@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-09-24T12:35:56.535Z",
+  "url": "http://localhost:3002",
+  "tests": [
+    {
+      "name": "Critical Error",
+      "status": "failed",
+      "details": {
+        "error": "page.waitForTimeout is not a function"
+      },
+      "timestamp": "2025-09-24T12:36:01.751Z"
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "passed": 0,
+    "failed": 1
+  }
+}

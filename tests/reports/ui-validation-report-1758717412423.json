@@ -1,0 +1,147 @@
+{
+  "timestamp": "2025-09-24T12:36:47.288Z",
+  "url": "http://localhost:3002",
+  "tests": [
+    {
+      "name": "Main Title Size",
+      "status": "failed",
+      "details": {
+        "message": "Main title (h1) not found"
+      },
+      "timestamp": "2025-09-24T12:36:51.620Z"
+    },
+    {
+      "name": "Subtitle Removal",
+      "status": "passed",
+      "details": {
+        "message": "Subtitle correctly removed from hero section"
+      },
+      "timestamp": "2025-09-24T12:36:51.630Z"
+    },
+    {
+      "name": "Button Removal",
+      "status": "passed",
+      "details": {
+        "message": "\"Explore Investment Opportunity\" button correctly removed"
+      },
+      "timestamp": "2025-09-24T12:36:51.891Z"
+    },
+    {
+      "name": "Hero KPI Metrics",
+      "status": "failed",
+      "details": {
+        "message": "Some KPI metrics are incorrect",
+        "metrics": [
+          {
+            "metric": "CAC",
+            "expected": true,
+            "found": false,
+            "correct": false
+          },
+          {
+            "metric": "Peak MAU",
+            "expected": true,
+            "found": false,
+            "correct": false
+          },
+          {
+            "metric": "Tickets Sold",
+            "expected": true,
+            "found": false,
+            "correct": false
+          },
+          {
+            "metric": "90-Day Churn",
+            "expected": true,
+            "found": false,
+            "correct": false
+          },
+          {
+            "metric": "Buyer Retention",
+            "expected": false,
+            "found": false,
+            "correct": true
+          },
+          {
+            "metric": "Contribution Margin",
+            "expected": false,
+            "found": false,
+            "correct": true
+          }
+        ]
+      },
+      "timestamp": "2025-09-24T12:36:51.933Z"
+    },
+    {
+      "name": "Section Title Sizes",
+      "status": "passed",
+      "details": {
+        "message": "All section titles use text-3xl",
+        "sections": []
+      },
+      "timestamp": "2025-09-24T12:36:52.017Z"
+    },
+    {
+      "name": "Growth Trajectory Placement",
+      "status": "failed",
+      "details": {
+        "message": "Could not find required sections",
+        "foundSections": [
+          "Application error: a client-side exception has occurred while loading localhost (see the browser console for more information)."
+        ]
+      },
+      "timestamp": "2025-09-24T12:36:52.030Z"
+    },
+    {
+      "name": "Financial Metrics Section",
+      "status": "failed",
+      "details": {
+        "message": "Some Financial Metrics elements are missing",
+        "years": [
+          {
+            "year": "2023",
+            "found": false
+          },
+          {
+            "year": "2024",
+            "found": false
+          },
+          {
+            "year": "2025",
+            "found": false
+          }
+        ],
+        "metrics": [
+          {
+            "metric": "Customer Acquisition Cost",
+            "found": false
+          },
+          {
+            "metric": "Average Order Value",
+            "found": false
+          },
+          {
+            "metric": "Purchase Frequency",
+            "found": false
+          }
+        ],
+        "hasContributionMargin": false,
+        "hasCOGS": false
+      },
+      "timestamp": "2025-09-24T12:36:52.064Z"
+    },
+    {
+      "name": "Executive Overview Timeline",
+      "status": "failed",
+      "details": {
+        "message": "Executive Overview section not found"
+      },
+      "timestamp": "2025-09-24T12:36:52.129Z"
+    }
+  ],
+  "summary": {
+    "total": 8,
+    "passed": 3,
+    "failed": 5
+  }
+}

@@ -1,0 +1,845 @@
+{
+  "timestamp": "2025-09-24T13:07:26.434Z",
+  "url": "http://localhost:3001",
+  "tests": [
+    {
+      "category": "Setup",
+      "testName": "Dashboard loaded successfully",
+      "status": "passed",
+      "details": "Status: 200",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:29.991Z"
+    },
+    {
+      "category": "Visual",
+      "testName": "Main container renders",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:31.999Z"
+    },
+    {
+      "category": "Visual",
+      "testName": "Navigation sidebar visible",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:32.001Z"
+    },
+    {
+      "category": "Visual",
+      "testName": "Hero Section renders correctly",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:32.003Z"
+    },
+    {
+      "category": "Visual",
+      "testName": "Financial Performance renders correctly",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:32.006Z"
+    },
+    {
+      "category": "Visual",
+      "testName": "Engagement Highlights renders correctly",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:32.008Z"
+    },
+    {
+      "category": "Visual",
+      "testName": "Growth Metrics renders correctly",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:32.010Z"
+    },
+    {
+      "category": "Visual",
+      "testName": "Retention Analysis renders correctly",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:32.011Z"
+    },
+    {
+      "category": "Visual",
+      "testName": "Market Opportunity renders correctly",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:32.012Z"
+    },
+    {
+      "category": "Visual",
+      "testName": "No overlapping sections detected",
+      "status": "failed",
+      "details": "Found 27 overlapping elements",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:32.014Z"
+    },
+    {
+      "category": "Visual",
+      "testName": "Full page screenshot captured",
+      "status": "passed",
+      "details": null,
+      "screenshot": "visual_full_page_1758719252015.png",
+      "timestamp": "2025-09-24T13:07:32.672Z"
+    },
+    {
+      "category": "Data Accuracy",
+      "testName": "Hero - Users count",
+      "status": "passed",
+      "details": "Found: 801K+",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:32.692Z"
+    },
+    {
+      "category": "Data Accuracy",
+      "testName": "Hero - GTV",
+      "status": "passed",
+      "details": "Found: $70M+",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:32.702Z"
+    },
+    {
+      "category": "Data Accuracy",
+      "testName": "Hero - LTV:CAC ratio",
+      "status": "passed",
+      "details": "Found: 35.3x",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:32.722Z"
+    },
+    {
+      "category": "Data Accuracy",
+      "testName": "Hero - CAC",
+      "status": "passed",
+      "details": "Found: $0.28",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:32.747Z"
+    },
+    {
+      "category": "Data Accuracy",
+      "testName": "Hero - Peak MAU",
+      "status": "passed",
+      "details": "Found: 219K",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:32.759Z"
+    },
+    {
+      "category": "Data Accuracy",
+      "testName": "Hero - Tickets sold",
+      "status": "passed",
+      "details": "Found: 1.3M",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:32.767Z"
+    },
+    {
+      "category": "Data Accuracy",
+      "testName": "Hero - Churn rate",
+      "status": "passed",
+      "details": "Found: 20.8%",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:32.774Z"
+    },
+    {
+      "category": "Data Accuracy",
+      "testName": "Financial - 2025 YTD label",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:32.783Z"
+    },
+    {
+      "category": "Data Accuracy",
+      "testName": "Financial - Total 2025 estimate",
+      "status": "passed",
+      "details": "Shows $5.1M",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:32.785Z"
+    },
+    {
+      "category": "Data Accuracy",
+      "testName": "Financial - Old estimate removed",
+      "status": "passed",
+      "details": "$5.2M correctly removed",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:32.788Z"
+    },
+    {
+      "category": "Data Accuracy",
+      "testName": "YoY Growth - Overall +67%",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:32.795Z"
+    },
+    {
+      "category": "Data Accuracy",
+      "testName": "YoY Growth - Monthly breakdown present",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:32.796Z"
+    },
+    {
+      "category": "Navigation",
+      "testName": "Navigation links found",
+      "status": "passed",
+      "details": "Found 6 navigation links",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:32.797Z"
+    },
+    {
+      "category": "Navigation",
+      "testName": "Scroll to Overview section",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:33.316Z"
+    },
+    {
+      "category": "Navigation",
+      "testName": "Scroll to Financial section",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:33.828Z"
+    },
+    {
+      "category": "Navigation",
+      "testName": "Scroll to Engagement section",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:34.338Z"
+    },
+    {
+      "category": "Navigation",
+      "testName": "Scroll to Growth section",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:34.853Z"
+    },
+    {
+      "category": "Navigation",
+      "testName": "Scroll to Retention section",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:35.367Z"
+    },
+    {
+      "category": "Navigation",
+      "testName": "Scroll to Market section",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:35.876Z"
+    },
+    {
+      "category": "Navigation",
+      "testName": "Mobile menu toggle present",
+      "status": "warning",
+      "details": "Mobile menu toggle might be missing",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:35.932Z"
+    },
+    {
+      "category": "Responsive",
+      "testName": "Desktop - No horizontal scroll",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:36.661Z"
+    },
+    {
+      "category": "Responsive",
+      "testName": "Desktop - Content visible",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:36.670Z"
+    },
+    {
+      "category": "Responsive",
+      "testName": "Desktop - Text readability",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:36.682Z"
+    },
+    {
+      "category": "Responsive",
+      "testName": "Desktop screenshot captured",
+      "status": "passed",
+      "details": null,
+      "screenshot": "responsive_desktop_1758719256682.png",
+      "timestamp": "2025-09-24T13:07:37.397Z"
+    },
+    {
+      "category": "Responsive",
+      "testName": "Tablet - No horizontal scroll",
+      "status": "failed",
+      "details": "Horizontal scroll detected",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:37.951Z"
+    },
+    {
+      "category": "Responsive",
+      "testName": "Tablet - Content visible",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:37.965Z"
+    },
+    {
+      "category": "Responsive",
+      "testName": "Tablet - Text readability",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:37.978Z"
+    },
+    {
+      "category": "Responsive",
+      "testName": "Tablet screenshot captured",
+      "status": "passed",
+      "details": null,
+      "screenshot": "responsive_tablet_1758719257979.png",
+      "timestamp": "2025-09-24T13:07:38.502Z"
+    },
+    {
+      "category": "Responsive",
+      "testName": "Mobile - No horizontal scroll",
+      "status": "failed",
+      "details": "Horizontal scroll detected",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.061Z"
+    },
+    {
+      "category": "Responsive",
+      "testName": "Mobile - Content visible",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.062Z"
+    },
+    {
+      "category": "Responsive",
+      "testName": "Mobile - Text readability",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.073Z"
+    },
+    {
+      "category": "Responsive",
+      "testName": "Mobile screenshot captured",
+      "status": "passed",
+      "details": null,
+      "screenshot": "responsive_mobile_1758719259074.png",
+      "timestamp": "2025-09-24T13:07:39.476Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart elements found",
+      "status": "passed",
+      "details": "Found 26 chart elements",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.778Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 1 renders correctly",
+      "status": "passed",
+      "details": "Dimensions: 690x300",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.790Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 1 has labels",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.790Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 2 renders correctly",
+      "status": "passed",
+      "details": "Dimensions: 690x300",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.803Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 2 has labels",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.803Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 3 renders correctly",
+      "status": "passed",
+      "details": "Dimensions: 14x14",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.817Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 3 has labels",
+      "status": "warning",
+      "details": "No labels found",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.817Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 4 renders correctly",
+      "status": "passed",
+      "details": "Dimensions: 14x14",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.829Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 4 has labels",
+      "status": "warning",
+      "details": "No labels found",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.829Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 5 renders correctly",
+      "status": "passed",
+      "details": "Dimensions: 1454x350",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.844Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 5 has labels",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.844Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 6 renders correctly",
+      "status": "passed",
+      "details": "Dimensions: 690x180",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.856Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 6 has labels",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.856Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 7 renders correctly",
+      "status": "passed",
+      "details": "Dimensions: 690x120",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.868Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 7 has labels",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.868Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 8 renders correctly",
+      "status": "passed",
+      "details": "Dimensions: 14x14",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.872Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 8 has labels",
+      "status": "warning",
+      "details": "No labels found",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.872Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 9 renders correctly",
+      "status": "passed",
+      "details": "Dimensions: 14x14",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.886Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 9 has labels",
+      "status": "warning",
+      "details": "No labels found",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.886Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 10 renders correctly",
+      "status": "passed",
+      "details": "Dimensions: 14x14",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.898Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 10 has labels",
+      "status": "warning",
+      "details": "No labels found",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.898Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 11 renders correctly",
+      "status": "passed",
+      "details": "Dimensions: 690x300",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.910Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 11 has labels",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.910Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 12 renders correctly",
+      "status": "passed",
+      "details": "Dimensions: 690x300",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.911Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 12 has labels",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.911Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 13 renders correctly",
+      "status": "passed",
+      "details": "Dimensions: 14x14",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.921Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 13 has labels",
+      "status": "warning",
+      "details": "No labels found",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.921Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 14 renders correctly",
+      "status": "passed",
+      "details": "Dimensions: 14x14",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.934Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 14 has labels",
+      "status": "warning",
+      "details": "No labels found",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.934Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 15 renders correctly",
+      "status": "passed",
+      "details": "Dimensions: 1454x400",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.937Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 15 has labels",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.937Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 16 renders correctly",
+      "status": "passed",
+      "details": "Dimensions: 1454x300",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.948Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 16 has labels",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.948Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 17 renders correctly",
+      "status": "passed",
+      "details": "Dimensions: 1454x400",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.960Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 17 has labels",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.960Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 18 renders correctly",
+      "status": "passed",
+      "details": "Dimensions: 690x300",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.961Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 18 has labels",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.961Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 19 renders correctly",
+      "status": "passed",
+      "details": "Dimensions: 690x300",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.973Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 19 has labels",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.973Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 20 renders correctly",
+      "status": "passed",
+      "details": "Dimensions: 14x14",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.985Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 20 has labels",
+      "status": "warning",
+      "details": "No labels found",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.985Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 21 renders correctly",
+      "status": "passed",
+      "details": "Dimensions: 14x14",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.987Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 21 has labels",
+      "status": "warning",
+      "details": "No labels found",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.987Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 22 renders correctly",
+      "status": "passed",
+      "details": "Dimensions: 1454x400",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.998Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 22 has labels",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:39.998Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 23 renders correctly",
+      "status": "passed",
+      "details": "Dimensions: 690x300",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:40.012Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 23 has labels",
+      "status": "warning",
+      "details": "No labels found",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:40.012Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 24 renders correctly",
+      "status": "passed",
+      "details": "Dimensions: 14x14",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:40.014Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 24 has labels",
+      "status": "warning",
+      "details": "No labels found",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:40.014Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 25 renders correctly",
+      "status": "passed",
+      "details": "Dimensions: 14x14",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:40.027Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 25 has labels",
+      "status": "warning",
+      "details": "No labels found",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:40.027Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 26 renders correctly",
+      "status": "passed",
+      "details": "Dimensions: 690x300",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:40.029Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Chart 26 has labels",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:40.029Z"
+    },
+    {
+      "category": "Charts",
+      "testName": "Use of Funds chart removed",
+      "status": "passed",
+      "details": "Correctly removed as per requirements",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:40.129Z"
+    },
+    {
+      "category": "Typography",
+      "testName": "JetBrains Mono font applied",
+      "status": "passed",
+      "details": "Found monospace font in use",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:40.143Z"
+    },
+    {
+      "category": "Typography",
+      "testName": "Heading hierarchy",
+      "status": "passed",
+      "details": "H1: 1, H2: 5, H3: 30",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:40.152Z"
+    },
+    {
+      "category": "Typography",
+      "testName": "Text contrast",
+      "status": "passed",
+      "details": "No obvious contrast issues",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:40.155Z"
+    },
+    {
+      "category": "Typography",
+      "testName": "Font size consistency",
+      "status": "warning",
+      "details": "Multiple font sizes detected for same element types",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:40.164Z"
+    },
+    {
+      "category": "Section Positioning",
+      "testName": "Executive Overview removed",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:40.176Z"
+    },
+    {
+      "category": "Section Positioning",
+      "testName": "Customer Economics after Monthly Revenue",
+      "status": "passed",
+      "details": null,
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:40.179Z"
+    },
+    {
+      "category": "Section Positioning",
+      "testName": "Growth sections present",
+      "status": "passed",
+      "details": "Both Growth Trajectory and Projections found",
+      "screenshot": null,
+      "timestamp": "2025-09-24T13:07:40.200Z"
+    }
+  ],
+  "summary": {
+    "total": 104,
+    "passed": 87,
+    "failed": 3,
+    "warnings": 0,
+    "warning": null
+  }
+}

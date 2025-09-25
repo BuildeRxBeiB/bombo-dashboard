@@ -1,0 +1,141 @@
+{
+  "timestamp": "2025-09-24T23:39:51.466Z",
+  "tool": "Puppeteer",
+  "tests": [
+    {
+      "name": "Page loads without 404 error",
+      "passed": true,
+      "timestamp": "2025-09-24T23:39:53.312Z",
+      "statusCode": 200,
+      "url": "http://localhost:3000",
+      "message": "Page loaded successfully"
+    },
+    {
+      "name": "CSS styles are applied correctly",
+      "passed": true,
+      "timestamp": "2025-09-24T23:39:53.609Z",
+      "details": {
+        "hasBlackBg": true,
+        "hasMinHeight": true,
+        "bgColor": "rgb(0, 0, 0)",
+        "minHeight": "1080px"
+      },
+      "message": "CSS styles loaded and applied"
+    },
+    {
+      "name": "Navigation sidebar does not occupy full screen",
+      "passed": true,
+      "timestamp": "2025-09-24T23:39:53.610Z",
+      "sidebarInfo": {
+        "found": true,
+        "width": 207,
+        "viewportWidth": 1920,
+        "widthPercentage": "10.78",
+        "position": "static",
+        "display": "block",
+        "occupiesFullScreen": false
+      },
+      "message": "Sidebar width: 10.78% of viewport"
+    },
+    {
+      "name": "Shadcn/UI components render with styles",
+      "passed": true,
+      "timestamp": "2025-09-24T23:39:53.659Z",
+      "hasRadixUI": false,
+      "componentsFound": [
+        {
+          "pattern": "rounded-",
+          "count": 65
+        },
+        {
+          "pattern": "border-",
+          "count": 62
+        },
+        {
+          "pattern": "bg-",
+          "count": 86
+        },
+        {
+          "pattern": "text-",
+          "count": 350
+        },
+        {
+          "pattern": "shadow-",
+          "count": 24
+        },
+        {
+          "pattern": "hover:",
+          "count": 23
+        },
+        {
+          "pattern": "dark:",
+          "count": 4
+        },
+        {
+          "pattern": "transition-",
+          "count": 21
+        }
+      ],
+      "stylesApplied": true,
+      "hasCSSVariables": true,
+      "message": "Shadcn/UI components detected and styled"
+    },
+    {
+      "name": "Visual validation screenshots captured",
+      "passed": true,
+      "timestamp": "2025-09-24T23:39:54.230Z",
+      "screenshots": [
+        "03-desktop-view.png",
+        "04-tablet-view.png",
+        "05-mobile-view.png"
+      ],
+      "message": "Screenshots captured for all viewport sizes"
+    },
+    {
+      "name": "Dark theme applied (black background)",
+      "passed": true,
+      "timestamp": "2025-09-24T23:39:54.236Z",
+      "mainBg": "rgb(0, 0, 0)",
+      "bodyBg": "rgb(0, 0, 0)",
+      "htmlBg": "rgba(0, 0, 0, 0)",
+      "hasBlackMain": true,
+      "hasDarkTheme": true,
+      "darkElements": [
+        "bg-black"
+      ],
+      "message": "Dark theme is properly applied"
+    },
+    {
+      "name": "Performance metrics collected",
+      "passed": true,
+      "timestamp": "2025-09-24T23:39:54.489Z",
+      "metrics": {
+        "Timestamp": 951310.251817,
+        "Documents": 1,
+        "Frames": 1,
+        "JSEventListeners": 288,
+        "Nodes": 6417,
+        "LayoutCount": 441,
+        "RecalcStyleCount": 466,
+        "LayoutDuration": 0.042879,
+        "RecalcStyleDuration": 0.099176,
+        "ScriptDuration": 0.925178,
+        "TaskDuration": 1.249507,
+        "JSHeapUsedSize": 30596524,
+        "JSHeapTotalSize": 110821376,
+        "performance": {
+          "domContentLoaded": 0,
+          "loadComplete": 0,
+          "domInteractive": 30.600000023841858,
+          "duration": 285.60000002384186
+        }
+      },
+      "message": "Performance data collected successfully"
+    }
+  ],
+  "summary": {
+    "total": 7,
+    "passed": 7,
+    "failed": 0
+  }
+}

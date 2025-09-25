@@ -1,0 +1,1004 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BOMBO Dashboard Test Report</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'JetBrains Mono', monospace;
+      background: #0a0a0a;
+      color: #e0e0e0;
+      padding: 2rem;
+    }
+    .container { max-width: 1200px; margin: 0 auto; }
+    h1 {
+      color: #10b981;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid #10b981;
+    }
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .summary-card {
+      background: #1a1a1a;
+      padding: 1.5rem;
+      border-radius: 8px;
+      border: 1px solid #333;
+    }
+    .summary-card h3 {
+      font-size: 0.9rem;
+      color: #888;
+      margin-bottom: 0.5rem;
+    }
+    .summary-card .value {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .passed { color: #10b981; }
+    .failed { color: #ef4444; }
+    .warning { color: #f59e0b; }
+    .tests-section {
+      margin-top: 2rem;
+    }
+    .category {
+      margin-bottom: 2rem;
+      background: #1a1a1a;
+      border-radius: 8px;
+      padding: 1.5rem;
+      border: 1px solid #333;
+    }
+    .category h2 {
+      color: #10b981;
+      margin-bottom: 1rem;
+      font-size: 1.2rem;
+    }
+    .test-item {
+      padding: 0.75rem;
+      margin-bottom: 0.5rem;
+      background: #0a0a0a;
+      border-radius: 4px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .test-name { flex: 1; }
+    .test-status {
+      padding: 0.25rem 0.75rem;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      font-weight: bold;
+    }
+    .status-passed { background: #10b98120; color: #10b981; }
+    .status-failed { background: #ef444420; color: #ef4444; }
+    .status-warning { background: #f59e0b20; color: #f59e0b; }
+    .test-details {
+      font-size: 0.85rem;
+      color: #888;
+      margin-top: 0.25rem;
+    }
+    .timestamp {
+      text-align: center;
+      color: #666;
+      margin-top: 2rem;
+      padding-top: 2rem;
+      border-top: 1px solid #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎯 BOMBO Dashboard Test Report</h1>
+
+    <div class="summary">
+      <div class="summary-card">
+        <h3>Total Tests</h3>
+        <div class="value">104</div>
+      </div>
+      <div class="summary-card">
+        <h3>Passed</h3>
+        <div class="value passed">87</div>
+      </div>
+      <div class="summary-card">
+        <h3>Failed</h3>
+        <div class="value failed">3</div>
+      </div>
+      <div class="summary-card">
+        <h3>Warnings</h3>
+        <div class="value warning">0</div>
+      </div>
+      <div class="summary-card">
+        <h3>Pass Rate</h3>
+        <div class="value">83.7%</div>
+      </div>
+    </div>
+
+    <div class="tests-section">
+      
+      <div class="category">
+        <h2>Setup</h2>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Dashboard loaded successfully</div>
+              <div class="test-details">Status: 200</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+      </div>
+    
+      <div class="category">
+        <h2>Visual</h2>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Main container renders</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Navigation sidebar visible</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Hero Section renders correctly</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Financial Performance renders correctly</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Engagement Highlights renders correctly</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Growth Metrics renders correctly</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Retention Analysis renders correctly</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Market Opportunity renders correctly</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">No overlapping sections detected</div>
+              <div class="test-details">Found 27 overlapping elements</div>
+            </div>
+            <span class="test-status status-failed">FAILED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Full page screenshot captured</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+      </div>
+    
+      <div class="category">
+        <h2>Data Accuracy</h2>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Hero - Users count</div>
+              <div class="test-details">Found: 801K+</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Hero - GTV</div>
+              <div class="test-details">Found: $70M+</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Hero - LTV:CAC ratio</div>
+              <div class="test-details">Found: 35.3x</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Hero - CAC</div>
+              <div class="test-details">Found: $0.28</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Hero - Peak MAU</div>
+              <div class="test-details">Found: 219K</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Hero - Tickets sold</div>
+              <div class="test-details">Found: 1.3M</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Hero - Churn rate</div>
+              <div class="test-details">Found: 20.8%</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Financial - 2025 YTD label</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Financial - Total 2025 estimate</div>
+              <div class="test-details">Shows $5.1M</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Financial - Old estimate removed</div>
+              <div class="test-details">$5.2M correctly removed</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">YoY Growth - Overall +67%</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">YoY Growth - Monthly breakdown present</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+      </div>
+    
+      <div class="category">
+        <h2>Navigation</h2>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Navigation links found</div>
+              <div class="test-details">Found 6 navigation links</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Scroll to Overview section</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Scroll to Financial section</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Scroll to Engagement section</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Scroll to Growth section</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Scroll to Retention section</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Scroll to Market section</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Mobile menu toggle present</div>
+              <div class="test-details">Mobile menu toggle might be missing</div>
+            </div>
+            <span class="test-status status-warning">WARNING</span>
+          </div>
+        
+      </div>
+    
+      <div class="category">
+        <h2>Responsive</h2>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Desktop - No horizontal scroll</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Desktop - Content visible</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Desktop - Text readability</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Desktop screenshot captured</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Tablet - No horizontal scroll</div>
+              <div class="test-details">Horizontal scroll detected</div>
+            </div>
+            <span class="test-status status-failed">FAILED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Tablet - Content visible</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Tablet - Text readability</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Tablet screenshot captured</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Mobile - No horizontal scroll</div>
+              <div class="test-details">Horizontal scroll detected</div>
+            </div>
+            <span class="test-status status-failed">FAILED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Mobile - Content visible</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Mobile - Text readability</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Mobile screenshot captured</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+      </div>
+    
+      <div class="category">
+        <h2>Charts</h2>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart elements found</div>
+              <div class="test-details">Found 26 chart elements</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 1 renders correctly</div>
+              <div class="test-details">Dimensions: 690x300</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 1 has labels</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 2 renders correctly</div>
+              <div class="test-details">Dimensions: 690x300</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 2 has labels</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 3 renders correctly</div>
+              <div class="test-details">Dimensions: 14x14</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 3 has labels</div>
+              <div class="test-details">No labels found</div>
+            </div>
+            <span class="test-status status-warning">WARNING</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 4 renders correctly</div>
+              <div class="test-details">Dimensions: 14x14</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 4 has labels</div>
+              <div class="test-details">No labels found</div>
+            </div>
+            <span class="test-status status-warning">WARNING</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 5 renders correctly</div>
+              <div class="test-details">Dimensions: 1454x350</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 5 has labels</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 6 renders correctly</div>
+              <div class="test-details">Dimensions: 690x180</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 6 has labels</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 7 renders correctly</div>
+              <div class="test-details">Dimensions: 690x120</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 7 has labels</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 8 renders correctly</div>
+              <div class="test-details">Dimensions: 14x14</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 8 has labels</div>
+              <div class="test-details">No labels found</div>
+            </div>
+            <span class="test-status status-warning">WARNING</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 9 renders correctly</div>
+              <div class="test-details">Dimensions: 14x14</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 9 has labels</div>
+              <div class="test-details">No labels found</div>
+            </div>
+            <span class="test-status status-warning">WARNING</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 10 renders correctly</div>
+              <div class="test-details">Dimensions: 14x14</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 10 has labels</div>
+              <div class="test-details">No labels found</div>
+            </div>
+            <span class="test-status status-warning">WARNING</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 11 renders correctly</div>
+              <div class="test-details">Dimensions: 690x300</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 11 has labels</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 12 renders correctly</div>
+              <div class="test-details">Dimensions: 690x300</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 12 has labels</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 13 renders correctly</div>
+              <div class="test-details">Dimensions: 14x14</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 13 has labels</div>
+              <div class="test-details">No labels found</div>
+            </div>
+            <span class="test-status status-warning">WARNING</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 14 renders correctly</div>
+              <div class="test-details">Dimensions: 14x14</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 14 has labels</div>
+              <div class="test-details">No labels found</div>
+            </div>
+            <span class="test-status status-warning">WARNING</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 15 renders correctly</div>
+              <div class="test-details">Dimensions: 1454x400</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 15 has labels</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 16 renders correctly</div>
+              <div class="test-details">Dimensions: 1454x300</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 16 has labels</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 17 renders correctly</div>
+              <div class="test-details">Dimensions: 1454x400</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 17 has labels</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 18 renders correctly</div>
+              <div class="test-details">Dimensions: 690x300</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 18 has labels</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 19 renders correctly</div>
+              <div class="test-details">Dimensions: 690x300</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 19 has labels</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 20 renders correctly</div>
+              <div class="test-details">Dimensions: 14x14</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 20 has labels</div>
+              <div class="test-details">No labels found</div>
+            </div>
+            <span class="test-status status-warning">WARNING</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 21 renders correctly</div>
+              <div class="test-details">Dimensions: 14x14</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 21 has labels</div>
+              <div class="test-details">No labels found</div>
+            </div>
+            <span class="test-status status-warning">WARNING</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 22 renders correctly</div>
+              <div class="test-details">Dimensions: 1454x400</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 22 has labels</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 23 renders correctly</div>
+              <div class="test-details">Dimensions: 690x300</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 23 has labels</div>
+              <div class="test-details">No labels found</div>
+            </div>
+            <span class="test-status status-warning">WARNING</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 24 renders correctly</div>
+              <div class="test-details">Dimensions: 14x14</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 24 has labels</div>
+              <div class="test-details">No labels found</div>
+            </div>
+            <span class="test-status status-warning">WARNING</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 25 renders correctly</div>
+              <div class="test-details">Dimensions: 14x14</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 25 has labels</div>
+              <div class="test-details">No labels found</div>
+            </div>
+            <span class="test-status status-warning">WARNING</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 26 renders correctly</div>
+              <div class="test-details">Dimensions: 690x300</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Chart 26 has labels</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Use of Funds chart removed</div>
+              <div class="test-details">Correctly removed as per requirements</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+      </div>
+    
+      <div class="category">
+        <h2>Typography</h2>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">JetBrains Mono font applied</div>
+              <div class="test-details">Found monospace font in use</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Heading hierarchy</div>
+              <div class="test-details">H1: 1, H2: 5, H3: 30</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Text contrast</div>
+              <div class="test-details">No obvious contrast issues</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Font size consistency</div>
+              <div class="test-details">Multiple font sizes detected for same element types</div>
+            </div>
+            <span class="test-status status-warning">WARNING</span>
+          </div>
+        
+      </div>
+    
+      <div class="category">
+        <h2>Section Positioning</h2>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Executive Overview removed</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Customer Economics after Monthly Revenue</div>
+              
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+          <div class="test-item">
+            <div>
+              <div class="test-name">Growth sections present</div>
+              <div class="test-details">Both Growth Trajectory and Projections found</div>
+            </div>
+            <span class="test-status status-passed">PASSED</span>
+          </div>
+        
+      </div>
+    
+    </div>
+
+    <div class="timestamp">
+      Generated: 24/9/2025, 10:07:40
+    </div>
+  </div>
+</body>
+</html>
+  

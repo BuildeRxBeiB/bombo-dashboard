@@ -1,0 +1,397 @@
+{
+  "timestamp": "2025-09-23T17:09:16.580Z",
+  "summary": {
+    "totalFiles": 5,
+    "filesWithViolations": 3,
+    "totalViolations": 0,
+    "totalWarnings": 51
+  },
+  "violations": [
+    {
+      "file": "components/sections/GrowthMetrics.tsx",
+      "violations": [],
+      "warnings": [
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#ffffff",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #ffffff",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#ffffff",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #ffffff",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#374151",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #374151",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#9ca3af",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #9ca3af",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#9ca3af",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #9ca3af",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#ffffff",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #ffffff",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#374151",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #374151",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#9ca3af",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #9ca3af",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#9ca3af",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #9ca3af",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#ffffff",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #ffffff",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#374151",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #374151",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#9ca3af",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #9ca3af",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#9ca3af",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #9ca3af",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#ffffff",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #ffffff",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#9ca3af",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #9ca3af",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        }
+      ]
+    },
+    {
+      "file": "components/sections/FinancialPerformance.tsx",
+      "violations": [],
+      "warnings": [
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#ffffff",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #ffffff",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#d1d5db",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #d1d5db",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#9ca3af",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #9ca3af",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#6b7280",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #6b7280",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#374151",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #374151",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#9ca3af",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #9ca3af",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#9ca3af",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #9ca3af",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#9ca3af",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #9ca3af",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#ffffff",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #ffffff",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#6b7280",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #6b7280",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#d1d5db",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #d1d5db",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#ffffff",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #ffffff",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#374151",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #374151",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#9ca3af",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #9ca3af",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#9ca3af",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #9ca3af",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#9ca3af",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #9ca3af",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#6b7280",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #6b7280",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#ffffff",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #ffffff",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        }
+      ]
+    },
+    {
+      "file": "components/sections/MarketOpportunity.tsx",
+      "violations": [],
+      "warnings": [
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#ffffff",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #ffffff",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#d1d5db",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #d1d5db",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#9ca3af",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #9ca3af",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#6b7280",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #6b7280",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#374151",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #374151",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#1f2937",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #1f2937",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#1f2937",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #1f2937",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#9ca3af",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #9ca3af",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#9ca3af",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #9ca3af",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#ffffff",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #ffffff",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#6b7280",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #6b7280",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#ffffff",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #ffffff",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#1f2937",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #1f2937",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#9ca3af",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #9ca3af",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#9ca3af",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #9ca3af",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#9ca3af",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #9ca3af",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#9ca3af",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #9ca3af",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        },
+        {
+          "type": "HEX_GRAYSCALE",
+          "pattern": "#ffffff",
+          "severity": "LOW",
+          "description": "Grayscale hex code found: #ffffff",
+          "suggestion": "Consider using Tailwind classes instead for consistency"
+        }
+      ]
+    }
+  ],
+  "passed": [
+    "components/sections/ExecutiveOverview.tsx",
+    "components/sections/RetentionAnalysis.tsx"
+  ],
+  "recommendations": [
+    {
+      "priority": "MEDIUM",
+      "action": "Standardize color usage",
+      "description": "Consider using Tailwind CSS classes instead of inline hex codes for consistency"
+    }
+  ]
+}

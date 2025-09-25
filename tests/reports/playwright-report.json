@@ -1,0 +1,351 @@
+{
+  "timestamp": "2025-09-24T23:40:02.119Z",
+  "tool": "Playwright",
+  "browsers": {
+    "chromium": {
+      "tests": [
+        {
+          "name": "Page loads without 404 error",
+          "passed": true,
+          "timestamp": "2025-09-24T23:40:05.494Z",
+          "statusCode": 200,
+          "url": "http://localhost:3000"
+        },
+        {
+          "name": "CSS styles are applied correctly",
+          "passed": true,
+          "timestamp": "2025-09-24T23:40:05.881Z",
+          "found": true,
+          "backgroundColor": "rgb(0, 0, 0)",
+          "minHeight": "1080px",
+          "hasBlackBg": true,
+          "hasMinHeight": true
+        },
+        {
+          "name": "Navigation sidebar does not occupy full screen",
+          "passed": true,
+          "timestamp": "2025-09-24T23:40:05.888Z",
+          "found": true,
+          "width": 207,
+          "height": 148,
+          "viewportWidth": 1920,
+          "widthPercentage": "10.78",
+          "occupiesFullScreen": false
+        },
+        {
+          "name": "Shadcn/UI components render with styles",
+          "passed": true,
+          "timestamp": "2025-09-24T23:40:05.896Z",
+          "hasRadixUI": false,
+          "radixCount": 0,
+          "utilityClasses": [
+            {
+              "pattern": "rounded-",
+              "count": 65
+            },
+            {
+              "pattern": "border-",
+              "count": 62
+            },
+            {
+              "pattern": "bg-",
+              "count": 86
+            },
+            {
+              "pattern": "text-",
+              "count": 350
+            },
+            {
+              "pattern": "shadow-",
+              "count": 24
+            },
+            {
+              "pattern": "hover:",
+              "count": 23
+            },
+            {
+              "pattern": "dark:",
+              "count": 4
+            },
+            {
+              "pattern": "flex",
+              "count": 73
+            },
+            {
+              "pattern": "grid",
+              "count": 51
+            }
+          ],
+          "hasThemeVars": true,
+          "componentCount": 738
+        },
+        {
+          "name": "Responsive design screenshots",
+          "passed": true,
+          "timestamp": "2025-09-24T23:40:08.636Z",
+          "viewportsTested": 4
+        },
+        {
+          "name": "Dark theme applied (black background)",
+          "passed": true,
+          "timestamp": "2025-09-24T23:40:08.689Z",
+          "hasBlackMain": true,
+          "hasBlackBody": true,
+          "darkClasses": [
+            "main.bg-black"
+          ],
+          "isDarkTheme": true
+        },
+        {
+          "name": "Performance metrics collected",
+          "passed": true,
+          "timestamp": "2025-09-24T23:40:08.690Z",
+          "metrics": {
+            "domContentLoaded": 54,
+            "loadComplete": 313,
+            "firstPaint": 28,
+            "domInteractive": 54,
+            "duration": 314
+          }
+        }
+      ],
+      "summary": {
+        "total": 7,
+        "passed": 7,
+        "failed": 0
+      }
+    },
+    "firefox": {
+      "tests": [
+        {
+          "name": "Page loads without 404 error",
+          "passed": true,
+          "timestamp": "2025-09-24T23:40:21.521Z",
+          "statusCode": 200,
+          "url": "http://localhost:3000"
+        },
+        {
+          "name": "CSS styles are applied correctly",
+          "passed": true,
+          "timestamp": "2025-09-24T23:40:21.743Z",
+          "found": true,
+          "backgroundColor": "rgb(0, 0, 0)",
+          "minHeight": "1080px",
+          "hasBlackBg": true,
+          "hasMinHeight": true
+        },
+        {
+          "name": "Navigation sidebar does not occupy full screen",
+          "passed": true,
+          "timestamp": "2025-09-24T23:40:21.745Z",
+          "found": true,
+          "width": 207,
+          "height": 148,
+          "viewportWidth": 1920,
+          "widthPercentage": "10.78",
+          "occupiesFullScreen": false
+        },
+        {
+          "name": "Shadcn/UI components render with styles",
+          "passed": true,
+          "timestamp": "2025-09-24T23:40:21.747Z",
+          "hasRadixUI": false,
+          "radixCount": 0,
+          "utilityClasses": [
+            {
+              "pattern": "rounded-",
+              "count": 65
+            },
+            {
+              "pattern": "border-",
+              "count": 62
+            },
+            {
+              "pattern": "bg-",
+              "count": 86
+            },
+            {
+              "pattern": "text-",
+              "count": 350
+            },
+            {
+              "pattern": "shadow-",
+              "count": 24
+            },
+            {
+              "pattern": "hover:",
+              "count": 23
+            },
+            {
+              "pattern": "dark:",
+              "count": 4
+            },
+            {
+              "pattern": "flex",
+              "count": 73
+            },
+            {
+              "pattern": "grid",
+              "count": 51
+            }
+          ],
+          "hasThemeVars": true,
+          "componentCount": 738
+        },
+        {
+          "name": "Responsive design screenshots",
+          "passed": true,
+          "timestamp": "2025-09-24T23:40:24.188Z",
+          "viewportsTested": 4
+        },
+        {
+          "name": "Dark theme applied (black background)",
+          "passed": true,
+          "timestamp": "2025-09-24T23:40:24.258Z",
+          "hasBlackMain": true,
+          "hasBlackBody": true,
+          "darkClasses": [
+            "main.bg-black"
+          ],
+          "isDarkTheme": true
+        },
+        {
+          "name": "Performance metrics collected",
+          "passed": true,
+          "timestamp": "2025-09-24T23:40:24.259Z",
+          "metrics": {
+            "domContentLoaded": 125,
+            "loadComplete": 345,
+            "firstPaint": 34,
+            "domInteractive": 110,
+            "duration": 344
+          }
+        }
+      ],
+      "summary": {
+        "total": 7,
+        "passed": 7,
+        "failed": 0
+      }
+    },
+    "webkit": {
+      "tests": [
+        {
+          "name": "Page loads without 404 error",
+          "passed": true,
+          "timestamp": "2025-09-24T23:40:27.326Z",
+          "statusCode": 200,
+          "url": "http://localhost:3000"
+        },
+        {
+          "name": "CSS styles are applied correctly",
+          "passed": true,
+          "timestamp": "2025-09-24T23:40:27.560Z",
+          "found": true,
+          "backgroundColor": "rgb(0, 0, 0)",
+          "minHeight": "1080px",
+          "hasBlackBg": true,
+          "hasMinHeight": true
+        },
+        {
+          "name": "Navigation sidebar does not occupy full screen",
+          "passed": true,
+          "timestamp": "2025-09-24T23:40:27.561Z",
+          "found": true,
+          "width": 207,
+          "height": 148,
+          "viewportWidth": 1920,
+          "widthPercentage": "10.78",
+          "occupiesFullScreen": false
+        },
+        {
+          "name": "Shadcn/UI components render with styles",
+          "passed": true,
+          "timestamp": "2025-09-24T23:40:27.562Z",
+          "hasRadixUI": false,
+          "radixCount": 0,
+          "utilityClasses": [
+            {
+              "pattern": "rounded-",
+              "count": 65
+            },
+            {
+              "pattern": "border-",
+              "count": 62
+            },
+            {
+              "pattern": "bg-",
+              "count": 86
+            },
+            {
+              "pattern": "text-",
+              "count": 350
+            },
+            {
+              "pattern": "shadow-",
+              "count": 24
+            },
+            {
+              "pattern": "hover:",
+              "count": 23
+            },
+            {
+              "pattern": "dark:",
+              "count": 4
+            },
+            {
+              "pattern": "flex",
+              "count": 73
+            },
+            {
+              "pattern": "grid",
+              "count": 51
+            }
+          ],
+          "hasThemeVars": true,
+          "componentCount": 738
+        },
+        {
+          "name": "Responsive design screenshots",
+          "passed": true,
+          "timestamp": "2025-09-24T23:40:30.129Z",
+          "viewportsTested": 4
+        },
+        {
+          "name": "Dark theme applied (black background)",
+          "passed": true,
+          "timestamp": "2025-09-24T23:40:30.137Z",
+          "hasBlackMain": true,
+          "hasBlackBody": true,
+          "darkClasses": [
+            "main.bg-black"
+          ],
+          "isDarkTheme": true
+        },
+        {
+          "name": "Performance metrics collected",
+          "passed": true,
+          "timestamp": "2025-09-24T23:40:30.226Z",
+          "metrics": {
+            "domContentLoaded": 65,
+            "loadComplete": 272,
+            "firstPaint": 58,
+            "domInteractive": 65,
+            "duration": 274
+          }
+        }
+      ],
+      "summary": {
+        "total": 7,
+        "passed": 7,
+        "failed": 0
+      }
+    }
+  },
+  "summary": {
+    "totalBrowsers": 3,
+    "totalTests": 21,
+    "passed": 21,
+    "failed": 0
+  }
+}

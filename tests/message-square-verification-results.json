@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-09-23T18:18:49.909Z",
+  "url": "http://localhost:3000",
+  "errors": [
+    "Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\nhttps://react.dev/link/hydration-mismatch\n\n  ...\n    <SegmentViewNode type=\"page\" pagePath=\"page.tsx\">\n      <SegmentTrieNode>\n      <Home>\n        <main className=\"min-h-scre...\">\n          <NavigationSidebar>\n          <div className=\"md:ml-64\">\n            <div>\n            <div>\n            <div>\n            <div id=\"growth\">\n              <GrowthMetrics>\n                <section className=\"py-20 bg-b...\">\n                  <div className=\"container ...\">\n                    <motion.div>\n                    <motion.div>\n                    <motion.div initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} transition={{duration:0.6, ...}} ...>\n                      <div className=\"grid grid-...\" style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>\n                        <Card>\n                        <Card>\n                        <Card>\n                        <Card className=\"bg-gray-90...\">\n                          <div data-slot=\"card\" className=\"text-card-...\">\n                            <div>\n                            <p className=\"text-2xl f...\">\n+                             25.3\n-                             25,3\n                              ...\n                            ...\n                    ...\n            ...\n    ...\n"
+  ],
+  "warnings": [],
+  "checks": {
+    "messageSquareErrors": true,
+    "retentionSectionExists": false,
+    "messageSquareIcons": {
+      "lucide": 0,
+      "potential": 0,
+      "totalSvg": 85
+    },
+    "sectionsFound": "0/7",
+    "lucideErrors": true
+  },
+  "performance": {
+    "jsHeapUsedMB": "33.62",
+    "domNodes": 12165,
+    "layoutCount": 442
+  }
+}

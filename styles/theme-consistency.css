@@ -1,0 +1,153 @@
+/*
+ * BOMBO Dashboard - Theme Consistency Overrides
+ * Pure Black/White Theme with Professional Grayscale
+ * Design Philosophy: Uncompromising clarity for investor-grade presentations
+ */
+
+/* Ensure consistent pure black backgrounds */
+.bg-black {
+  background-color: #000000 !important;
+}
+
+/* Consistent card backgrounds with subtle transparency */
+.bg-gray-900\/50,
+.bg-gray-900\/30 {
+  background-color: rgba(17, 24, 39, 0.7) !important;
+  backdrop-filter: blur(8px);
+}
+
+/* Pure white text hierarchy */
+.text-white {
+  color: #ffffff !important;
+}
+
+/* Consistent grayscale progression */
+.text-gray-400 {
+  color: #9ca3af !important;
+}
+
+.text-gray-500 {
+  color: #6b7280 !important;
+}
+
+.text-gray-300 {
+  color: #d1d5db !important;
+}
+
+.text-gray-200 {
+  color: #e5e7eb !important;
+}
+
+/* Border consistency */
+.border-gray-800 {
+  border-color: #1f2937 !important;
+}
+
+.border-gray-700 {
+  border-color: #374151 !important;
+}
+
+/* Chart element consistency */
+.recharts-cartesian-grid line {
+  stroke: #374151 !important;
+}
+
+.recharts-text {
+  fill: #9ca3af !important;
+}
+
+/* Custom badge styling for consistency */
+.bg-gray-800 {
+  background-color: #1f2937 !important;
+}
+
+/* Ensure tooltip consistency */
+.recharts-tooltip-wrapper .recharts-default-tooltip {
+  background-color: #000000 !important;
+  border: 1px solid #374151 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Remove any unwanted shadows or effects */
+.recharts-tooltip-wrapper {
+  filter: none !important;
+}
+
+/* Consistent focus states */
+button:focus,
+.recharts-sector:focus,
+.recharts-bar:focus {
+  outline: 2px solid #ffffff !important;
+  outline-offset: 2px !important;
+}
+
+/* Motion elements should maintain color consistency */
+.motion-element {
+  color: inherit !important;
+  background-color: inherit !important;
+}
+
+/* Ensure icons maintain proper contrast */
+svg {
+  color: inherit !important;
+}
+
+/* Card hover states - minimal and professional */
+.bg-gray-900\/50:hover {
+  background-color: rgba(17, 24, 39, 0.8) !important;
+  transition: background-color 0.2s ease-in-out !important;
+}
+
+/* Text selection consistency */
+::selection {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+/* Scrollbar styling for dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #374151;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4b5563;
+}
+
+/* Remove any default browser styling that conflicts */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #374151 #000000;
+}
+
+/* Ensure all links maintain theme consistency */
+a {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #e5e7eb !important;
+}
+
+/* Responsive image handling */
+img {
+  filter: contrast(1.1) brightness(0.95);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
