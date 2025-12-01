@@ -156,7 +156,7 @@ export function HeroSection() {
           <div className="bg-gray-900/50 border border-gray-800 rounded-lg p-6 hover:border-gray-700 transition-all">
             <div className="flex flex-col items-center">
               <TrendingUp className="w-8 h-8 text-gray-400 mb-3" />
-              <p className="text-3xl font-bold text-white mb-1">20.8%</p>
+              <p className="text-3xl font-bold text-white mb-1">{bomboData.metrics.churn90Day}%</p>
               <p className="text-sm text-gray-400 uppercase tracking-wider">90-Day Churn</p>
             </div>
           </div>

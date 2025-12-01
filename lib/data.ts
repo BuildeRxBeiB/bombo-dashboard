@@ -1,7 +1,7 @@
 export const bomboData = {
   // Core Metrics
   metrics: {
-    totalUsers: 801492,
+    totalUsers: 826385,
     newUsers2025: 316369,
     totalPurchasers: 221704,
     ticketsSold: 1277498,
@@ -35,6 +35,7 @@ export const bomboData = {
     nonBuyerRetention: 14, // 30-day retention
     nonBuyerRetention90Day: 1, // 90-day retention
     overallRetention90Day: 79.2,
+    churn90Day: 20.8,
     monthlyRetentionBuyers: 80,
 
     // Engagement - COMPLETE METRICS
@@ -363,7 +364,25 @@ export const bomboData = {
         { date: "Aug", value: 32500 }, { date: "Aug", value: 34000 }, { date: "Aug", value: 45000 }, // Spike
         { date: "Aug", value: 40000 }, { date: "Aug", value: 33000 }, { date: "Aug", value: 30000 },
         { date: "Aug", value: 31500 }, { date: "Aug", value: 33000 }, { date: "Aug", value: 34500 },
-        { date: "Aug", value: 36000 }, { date: "Aug", value: 37000 }, { date: "Aug", value: 34000 }
+        { date: "Aug", value: 36000 }, { date: "Aug", value: 37000 }, { date: "Aug", value: 34000 },
+        // September 2025
+        { date: "Sep", value: 30000 }, { date: "Sep", value: 31500 }, { date: "Sep", value: 33000 },
+        { date: "Sep", value: 34500 }, { date: "Sep", value: 36000 }, { date: "Sep", value: 38000 },
+        { date: "Sep", value: 40000 }, { date: "Sep", value: 35000 }, { date: "Sep", value: 32000 },
+        { date: "Sep", value: 34000 }, { date: "Sep", value: 36000 }, { date: "Sep", value: 38000 },
+        { date: "Sep", value: 40000 }, { date: "Sep", value: 42000 }, { date: "Sep", value: 38000 },
+        // October 2025
+        { date: "Oct", value: 31000 }, { date: "Oct", value: 32500 }, { date: "Oct", value: 34000 },
+        { date: "Oct", value: 35500 }, { date: "Oct", value: 37000 }, { date: "Oct", value: 39000 },
+        { date: "Oct", value: 40500 }, { date: "Oct", value: 36000 }, { date: "Oct", value: 33000 },
+        { date: "Oct", value: 35000 }, { date: "Oct", value: 37000 }, { date: "Oct", value: 39000 },
+        { date: "Oct", value: 41000 }, { date: "Oct", value: 43000 }, { date: "Oct", value: 39000 },
+        // November 2025
+        { date: "Nov", value: 32000 }, { date: "Nov", value: 33500 }, { date: "Nov", value: 35000 },
+        { date: "Nov", value: 36500 }, { date: "Nov", value: 38000 }, { date: "Nov", value: 40000 },
+        { date: "Nov", value: 41500 }, { date: "Nov", value: 37000 }, { date: "Nov", value: 34000 },
+        { date: "Nov", value: 36000 }, { date: "Nov", value: 38000 }, { date: "Nov", value: 40000 },
+        { date: "Nov", value: 42000 }, { date: "Nov", value: 44000 }, { date: "Nov", value: 40000 },
       ]
     },
 
@@ -380,12 +399,16 @@ export const bomboData = {
       { month: "May", value: 156000 },
       { month: "Jun", value: 154000 },
       { month: "Jul", value: 176000 },
-      { month: "Aug", value: 180000 }
+      { month: "Aug", value: 180000 },
+      { month: "Sep", value: 191000 },
+      { month: "Oct", value: 204000 },
+      { month: "Nov", value: 226000 },
     ],
     mauStats: {
-      peak: 219000,
-      average: 202000,
-      median: 182000
+      peak: 226000,
+      average: 205000,
+      median: 191000,
+      peakMonth: "November 2025",
     },
 
     // Cumulative retention data (days vs percentage)

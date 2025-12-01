@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import {
-  LineChart, Line, AreaChart, Area, BarChart, Bar,
+  LineChart, Line, BarChart, Bar, Cell,
   XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend
 } from "recharts";
 import { bomboData, formatNumber } from "@/lib/data";
@@ -122,7 +122,7 @@ export function EngagementHighlights() {
                     <YAxis
                       stroke="#9ca3af"
                       tickFormatter={(value) => `${(value/1000).toFixed(0)}k`}
-                      domain={[0, 100000]}
+                      domain={[0, 50000]}
                     />
                     <Tooltip content={<CustomTooltip />} />
                     <Line
@@ -138,15 +138,15 @@ export function EngagementHighlights() {
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="text-center">
-                  <p className="text-3xl font-bold text-white">25k</p>
+                  <p className="text-3xl font-bold text-white">{formatNumber(engagementMetrics.dailyActiveUsers.median)}</p>
                   <p className="text-gray-400">Median DAU</p>
                 </div>
                 <div className="text-center">
-                  <p className="text-3xl font-bold text-white">30k</p>
+                  <p className="text-3xl font-bold text-white">{formatNumber(engagementMetrics.dailyActiveUsers.mean)}</p>
                   <p className="text-gray-400">Mean DAU</p>
                 </div>
                 <div className="text-center">
-                  <p className="text-3xl font-bold text-white">95k</p>
+                  <p className="text-3xl font-bold text-white">{formatNumber(engagementMetrics.dailyActiveUsers.peak)}</p>
                   <p className="text-gray-400">Peak DAU</p>
                 </div>
               </div>
@@ -175,9 +175,9 @@ export function EngagementHighlights() {
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
                 <div className="text-center">
-                  <p className="text-3xl font-bold text-white">219k</p>
+                  <p className="text-3xl font-bold text-white">{formatNumber(engagementMetrics.mauStats.peak)}</p>
                   <p className="text-gray-400">Peak MAU</p>
-                  <p className="text-xs text-gray-500">January 2025</p>
+                  <p className="text-xs text-gray-500">{engagementMetrics.mauStats.peakMonth}</p>
                 </div>
                 <div className="text-center">
                   <p className="text-3xl font-bold text-white">202k</p>
@@ -287,71 +287,6 @@ export function EngagementHighlights() {
           </Card>
         </motion.div>
 
-        {/* Average Session Duration */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          viewport={{ once: true }}
-          className="mb-16"
-        >
-          <h3 className="text-2xl font-bold text-white mb-2">Average Session Duration</h3>
-          <p className="text-gray-400 mb-6">How Long Users Stay for News, Tickets & Community</p>
-
-          <Card className="bg-gray-900/50 border-gray-800 p-6">
-            <h4 className="text-lg font-bold text-white mb-6">Monthly Evolution: April 2024 - August 2025</h4>
-
-            <div className="h-56">
-              <ResponsiveContainer width="100%" height="100%">
-                <AreaChart data={engagementMetrics.sessionDurationMonthly}>
-                  <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
-                  <XAxis
-                    dataKey="month"
-                    stroke="#9ca3af"
-                    angle={-45}
-                    textAnchor="end"
-                    height={80}
-                  />
-                  <YAxis
-                    stroke="#9ca3af"
-                    domain={[8, 14]}
-                    tickFormatter={(value) => `${value}`}
-                    label={{ value: 'Duration (minutes)', angle: -90, position: 'insideLeft' }}
-                  />
-                  <Tooltip content={<CustomTooltip />} />
-                  <Area
-                    type="monotone"
-                    dataKey="duration"
-                    stroke="#9ca3af"
-                    fill="#9ca3af"
-                    fillOpacity={0.3}
-                    strokeWidth={2}
-                  />
-                </AreaChart>
-              </ResponsiveContainer>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-6">
-              <div className="text-center bg-gray-800/50 p-4 rounded">
-                <p className="text-2xl font-bold text-white">8.8m</p>
-                <p className="text-gray-400 text-sm">Apr 2024</p>
-              </div>
-              <div className="text-center bg-gray-800/50 p-4 rounded">
-                <p className="text-2xl font-bold text-white">13.2m</p>
-                <p className="text-gray-400 text-sm">Peak</p>
-              </div>
-              <div className="text-center bg-gray-800/50 p-4 rounded">
-                <p className="text-2xl font-bold text-white">12.4m</p>
-                <p className="text-gray-400 text-sm">Aug 2025</p>
-              </div>
-              <div className="text-center bg-gray-800/50 p-4 rounded">
-                <p className="text-2xl font-bold text-white">+68%</p>
-                <p className="text-gray-400 text-sm">Growth</p>
-              </div>
-            </div>
-          </Card>
-        </motion.div>
-
         {/* Frequency of Visits: Stickiness */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -386,7 +321,7 @@ export function EngagementHighlights() {
                     <Tooltip content={<CustomTooltip />} />
                     <Bar dataKey="percentage" fill="#9ca3af">
                       {engagementMetrics.stickiness.map((entry, index) => (
-                        <Bar key={`cell-${index}`} fill="#9ca3af" />
+                        <Cell key={`cell-${index}`} fill="#9ca3af" />
                       ))}
                     </Bar>
                   </BarChart>
