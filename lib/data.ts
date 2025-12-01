@@ -229,10 +229,10 @@ export const bomboData = {
       { month: "Jun", revenue: 279880, actual: true },  // Actual from PDF
       { month: "Jul", revenue: 588586, actual: true },  // Actual from PDF (Peak month!)
       { month: "Aug", revenue: 294807, actual: true },  // Actual from PDF
-      { month: "Sep", revenue: 580000, actual: false }, // Projected to reach $5.2M total
-      { month: "Oct", revenue: 650000, actual: false }, // Projected
-      { month: "Nov", revenue: 700000, actual: false }, // Projected
-      { month: "Dec", revenue: 725290, actual: false }  // Projected - totals to $5.2M
+      { month: "Sep", revenue: 384869, actual: false }, // Updated from chart
+      { month: "Oct", revenue: 299325, actual: false }, // Updated from chart
+      { month: "Nov", revenue: 383437, actual: false }, // Updated from chart
+      { month: "Dec", revenue: 800000, actual: false }  // Updated from chart
     ]
   },
 

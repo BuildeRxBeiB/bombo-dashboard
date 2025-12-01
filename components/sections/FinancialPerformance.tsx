@@ -351,7 +351,7 @@ export function FinancialPerformance() {
             {/* YoY Growth Highlight */}
             <div className="bg-black/50 border border-gray-800 rounded-lg p-4 mb-6">
               <div className="flex items-center justify-between mb-3">
-                <h4 className="text-white font-semibold">Year-over-Year Growth (Jan-Aug)</h4>
+                <h4 className="text-white font-semibold">Year-over-Year Growth (Jan-Nov)</h4>
                 <div className="flex items-center bg-gray-900 rounded-full px-3 py-1">
                   <TrendingUp className="w-4 h-4 text-white mr-2" />
                   <span className="text-xl font-bold text-white">+67%</span>
@@ -390,10 +390,22 @@ export function FinancialPerformance() {
                   <p className="text-gray-400 mb-1">Aug</p>
                   <p className="font-bold text-white">+81%</p>
                 </div>
+                <div>
+                  <p className="text-gray-400 mb-1">Sep</p>
+                  <p className="font-bold text-white">+24%</p>
+                </div>
+                <div>
+                  <p className="text-gray-400 mb-1">Oct</p>
+                  <p className="font-bold text-gray-400">-44%</p>
+                </div>
+                <div>
+                  <p className="text-gray-400 mb-1">Nov</p>
+                  <p className="font-bold text-gray-400">-24%</p>
+                </div>
               </div>
               <div className="mt-3 pt-3 border-t border-gray-800">
                 <p className="text-sm text-gray-300">
-                  <span className="font-semibold text-white">6 out of 8 months</span> showed positive growth, with
+                  <span className="font-semibold text-white">7 out of 11 months</span> showed positive growth, with
                   <span className="font-semibold text-white"> 3 months exceeding 100%</span> growth (Feb, Jan, Jul)
                 </p>
               </div>
@@ -461,6 +473,12 @@ export function FinancialPerformance() {
               <div className="text-gray-400">
                 Total 2025 Est: <span className="text-white font-bold">$5.1M</span>
               </div>
+            </div>
+
+            <div className="mt-6 pt-6 border-t border-gray-800">
+              <p className="text-sm text-gray-300 leading-relaxed">
+                We experienced a slower Q4 than anticipated due to economic uncertainty in both Argentina and Chile, driven by the elections, though Argentina achieved the best possible outcome with Milei and US Support. We are expecting our strongest month ever in December, fueled by the launch of Ultra Peru and several postponed events that coincide with the peak season of the Austral Summer.
+              </p>
             </div>
           </Card>
         </motion.div>

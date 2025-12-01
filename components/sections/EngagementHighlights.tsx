@@ -71,8 +71,8 @@ export function EngagementHighlights() {
             <div className="border-t border-gray-700 pt-6 mb-6">
               <p className="text-gray-300 mb-4">When segmenting between buyers and non-buyers, retention in 2025 shows remarkable improvement:</p>
               <ul className="space-y-2 ml-6">
-                <li className="text-gray-300">• <span className="text-white font-semibold">Buyers:</span> 80% retention the following month (up from 75%)</li>
-                <li className="text-gray-300">• <span className="text-white font-semibold">Non-buyers:</span> 50% retention the following month (up from 45%)</li>
+                <li className="text-gray-300">• <span className="text-white font-semibold">Buyers:</span> 85.92% retention the following month (up from 75%)</li>
+                <li className="text-gray-300">• <span className="text-white font-semibold">Non-buyers:</span> 60.87% retention the following month (up from 45%)</li>
               </ul>
             </div>
 
@@ -106,7 +106,7 @@ export function EngagementHighlights() {
           <div className="mb-12">
             <Card className="bg-gray-900/50 border-gray-800 p-6">
               <h4 className="text-xl font-bold text-white mb-2">Daily Active Users</h4>
-              <p className="text-sm text-gray-400 mb-6">September 2024 - August 2025</p>
+              <p className="text-sm text-gray-400 mb-6">September 2024 - November 2025</p>
 
               {/* DAU Time Series Chart */}
               <div className="h-48">
