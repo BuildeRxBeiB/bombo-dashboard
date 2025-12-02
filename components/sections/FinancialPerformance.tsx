@@ -203,7 +203,7 @@ export function FinancialPerformance() {
 
           <Card className="bg-gray-900/50 border-gray-800 p-6">
             <PieChartIcon className="w-8 h-8 text-gray-400 mb-4" />
-            <p className="text-sm text-gray-500 mb-2">2025 YTD (Aug)</p>
+            <p className="text-sm text-gray-500 mb-2">2025 YTD (Nvov)</p>
             <p className="text-3xl font-bold text-white mb-2">
               {formatCurrency(bomboData.metrics.revenue2025YTD)}
             </p>

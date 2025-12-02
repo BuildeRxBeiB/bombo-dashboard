@@ -12,7 +12,7 @@ export const bomboData = {
     // Financial - CORRECTED for August 2025 YTD
     totalGTV: 70045672,
     totalRevenue: 9352983,
-    revenue2025YTD: 2200000, // Actual August 2025 YTD
+    revenue2025YTD: 3800000, // Actual August 2025 YTD
     gtv2025YTD: 33934016,
     revenue2025Projected: 4500000, // Full year 2025 projection
     gtv2025Projected: 51000000,
@@ -93,7 +93,7 @@ export const bomboData = {
     {
       year: "2025 YTD",
       gtv: 33934016,
-      revenue: 2200000, // Corrected to actual August 2025 YTD
+      revenue: 3800000, // Corrected to actual August 2025 YTD
       netServiceCharge: 1320000,
       availableService: 1254000,
       projected: {
