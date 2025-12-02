@@ -14,7 +14,7 @@ export const bomboData = {
     totalRevenue: 9352983,
     revenue2025YTD: 2200000, // Actual August 2025 YTD
     gtv2025YTD: 33934016,
-    revenue2025Projected: 5000000, // Full year 2025 projection
+    revenue2025Projected: 4500000, // Full year 2025 projection
     gtv2025Projected: 51000000,
     contributionMargin: 56.93,
 
@@ -98,7 +98,7 @@ export const bomboData = {
       availableService: 1254000,
       projected: {
         gtv: 51000000,
-        revenue: 5100000 // Full year projection - $5.1M
+        revenue: 4500000
       }
     }
   ],
@@ -232,15 +232,15 @@ export const bomboData = {
       { month: "Sep", revenue: 384869, actual: false }, // Updated from chart
       { month: "Oct", revenue: 299325, actual: false }, // Updated from chart
       { month: "Nov", revenue: 383437, actual: false }, // Updated from chart
-      { month: "Dec", revenue: 800000, actual: false }  // Updated from chart
+      { month: "Dec", revenue: 700000, actual: false }  // Updated from chart
     ]
   },
 
   // Projections
   projections: [
-    { year: 2025, users: 1200000, gtv: 51000000, revenue: 5100000 },
-    { year: 2026, users: 2500000, gtv: 120000000, revenue: 18000000 },
-    { year: 2027, users: 4000000, gtv: 250000000, revenue: 37500000 }
+    { year: 2025, users: 1200000, gtv: 51000000, revenue: 4500000 },
+    { year: 2026, users: 2500000, gtv: 120000000, revenue: 15880000 },
+    { year: 2027, users: 4000000, gtv: 250000000, revenue: 33108000 }
   ],
 
   // Retention Cohorts Data

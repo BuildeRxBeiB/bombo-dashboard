@@ -133,8 +133,8 @@ export function FinancialPerformance() {
                       <td className="py-3 px-2 text-gray-300">Revenue</td>
                       <td className="text-right py-3 px-2 text-white font-mono">$1,209,801</td>
                       <td className="text-right py-3 px-2 text-white font-mono">$3,053,080</td>
-                      <td className="text-right py-3 px-2 text-white font-mono">$5,090,102</td>
-                      <td className="text-right py-3 px-2 text-white font-bold font-mono">$9,352,983</td>
+                      <td className="text-right py-3 px-2 text-white font-mono">$4,500,000</td>
+                      <td className="text-right py-3 px-2 text-white font-bold font-mono">$8,762,881</td>
                     </tr>
                     <tr className="border-b border-gray-800/50">
                       <td className="py-3 px-2 text-gray-300">Net Service Charge</td>
@@ -463,15 +463,15 @@ export function FinancialPerformance() {
                 </div>
                 <div className="flex items-center">
                   <div className="w-3 h-3 bg-white rounded mr-2" />
-                  <span className="text-gray-400">2025 Actual (Jan-Aug)</span>
+                  <span className="text-gray-400">2025 Actual (Jan-Nov)</span>
                 </div>
                 <div className="flex items-center">
                   <div className="w-3 h-3 bg-white/50 rounded mr-2" />
-                  <span className="text-gray-400">2025 Estimated (Sep-Dec)</span>
+                  <span className="text-gray-400">2025 Estimated (Dec)</span>
                 </div>
               </div>
               <div className="text-gray-400">
-                Total 2025 Est: <span className="text-white font-bold">$5.1M</span>
+                Total 2025 Est: <span className="text-white font-bold">$4.5M</span>
               </div>
             </div>
 
